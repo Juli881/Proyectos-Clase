@@ -1,0 +1,75 @@
+/* Estilo general del navbar */
+.navbar {
+    background-color: #e0dedd !important; /* Color de fondo */
+    font-family: 'Great Vibes', cursive; /* Aplica la fuente cursiva elegante */
+  }
+  
+  .navbar-brand {
+    color: #ffffff !important; /* Texto blanco para el logo */
+    font-family: 'Great Vibes', cursive; /* Aplica la fuente cursiva elegante */
+    font-weight: bold;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center; /* Centra el icono y el texto */
+  }
+  
+  .navbar-brand i {
+    font-size: 1.9rem; /* Aumenta el tamaño del icono */
+    margin-left: 8px; /* Espacio entre el texto y el icono */
+    color: #f0e6f7; /* Color violeta claro para el icono */
+    transition: color 0.3s;
+  }
+  
+  /* Efecto de hover para el icono */
+  .navbar-brand i:hover {
+    color: #ffffff; /* Cambia a blanco cuando se pasa el ratón por encima */
+  }
+  
+  /* Estilo de los enlaces del navbar */
+  .navbar-nav .nav-item .nav-link {
+    color: #000000 !important; /* Color claro para los enlaces */
+    font-family: 'Great Vibes', cursive; /* Aplica la fuente cursiva elegante */
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ffffff !important; /* Cambia a blanco cuando se pasa el ratón */
+  }
+  
+  /* Estilo del botón de búsqueda */
+  .form-control {
+    border-radius: 20px; /* Bordes redondeados */
+    padding-left: 20px;
+  }
+  
+  .btn-outline-success {
+    border-radius: 20px;
+    padding: 0.5rem 1.2rem;
+    font-weight: bold;
+    color: #ffffff; /* Texto blanco */
+    background-color: #958e9b; /* Fondo violeta oscuro */
+    border: 2px solid #a39ea7; /* Borde violeta oscuro */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #6e506a; /* Violeta más oscuro al pasar el ratón */
+    color: #ffffff; /* Texto blanco al pasar el ratón */
+  }
+  
+  /* Estilo responsivo */
+  @media (max-width: 992px) {
+    .navbar-collapse {
+      background-color: #a5a1a8; /* Violeta oscuro también para la versión móvil */
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-top: 10px;
+    }
+  }
+  
